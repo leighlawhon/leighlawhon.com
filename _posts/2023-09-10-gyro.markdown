@@ -1,0 +1,23 @@
+---
+layout: posts
+title:  "Scitor Videos"
+date:   2023-07-01 16:13:27 -0500
+tags: ["3D and Motion Graphics"]
+author_profile: true
+author: Leigh Stewardson
+categories: work
+highlight_home: true
+tagline: "Various Video and 3D Projects"
+header:
+  overlay_image: /assets/images/gyro.png
+  teaser:  /assets/images/gyro.png
+  caption: "Photo credit: **Leigh Stewardson**"
+description: "This article showcases the game Collaborate and how I build it."
+---
+
+## Introduction
+As an Information Specialist at Scitor Corporation, I created in-house videos and 3D animations.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8-6ddXqW9W4?si=a4JN1Dp34OP5aPkK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yiSOaidlxSQ?si=8Tw5fhrKxzK9R0MR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

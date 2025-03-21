@@ -1,0 +1,110 @@
+---
+layout: posts
+title:  "WorkForce Edge"
+date:   2023-07-01 16:13:27 -0500
+tags: ["Product Management", "EdTech"]
+author_profile: true
+author: Leigh Stewardson
+categories: work
+highlight_home: true
+tagline: "Educaition Benefits Platform"
+header:
+  overlay_image: /assets/images/wfe.png
+  teaser:  /assets/images/wfe.png
+  caption: "Photo credit: **Leigh Stewardson**"
+description: This article showcases an education benefits platform I manged
+---
+
+## Background
+As Head of Product at WorkForce Edge, I led strategic initiatives across UI design, development, and security. My efforts included launching impactful features such as billing systems, program filtering tailored to high-demand education providers, and pre-paid tuition. Additionally, I spearheaded a comprehensive redesign of the platform’s interface to enhance user experience and engagement.
+
+## Target Users
+- **Employers**: HR teams managing education benefits, requiring streamlined workflows and insightful reporting.  
+- **Education Providers**: Institutions (in-network and out-of-network) seeking visibility and collaboration opportunities.  
+- **Employees**: Individuals accessing educational benefits, needing intuitive tools to explore and utilize learning opportunities.
+
+## Approach
+### Prioritization  
+The product served three key internal stakeholders: Sales, Service, and the parent company, SEI Inc. I managed competing priorities within strict budget constraints to ensure alignment with business goals. The platform showcased diverse education providers, empowering employees to utilize their benefits flexibly, contrasting competitors that limited options to in-network institutions.  
+
+To support SEI’s goal of using the platform as a sales channel for its educational programs, my strategy involved:  
+- **Initial Focus**: Developing competitive features to establish MVP functionality, enabling the Sales Team to secure deals.  
+- **Growth Phase**: Shifting focus to user experience enhancements to drive engagement and support Service Team objectives.  
+
+By structuring tasks into three prioritized workstreams—Security, Sales, and Service—I ensured timely MVP releases, balancing the needs of business partners and employees.
+
+## Strategy
+### Core Objectives  
+1. **Enhance Security and Efficiency**: Meet high-security standards (e.g., SOC2 compliance) while improving billing and reporting processes.  
+2. **Support Employers**: Provide tools to streamline benefits management and reporting.  
+3. **Boost Platform Engagement**: Improve usability and increase employee interaction, particularly with in-network providers.  
+4. **Strengthen User Experience**: Enhance navigation and accessibility for all user personas.  
+
+## Challenges and Solutions  
+### Identified Problems  
+**Employees**:  
+- Lack of awareness about educational options.  
+- Difficulties navigating filters, managing multiple programs, and processing payments.  
+**Employers**:  
+- Complex reporting on benefit utilization.  
+- Inefficient billing and reimbursement tools.  
+**Education Providers**:  
+- Limited visibility, particularly for in-network institutions.  
+- Lack of tools to highlight key programs effectively.
+
+### Solutions  
+**Employees**:  
+- Enhanced usability for managing multiple programs through smart filters and process streamlining.  
+- Messaging alignment with the Service Team to reduce confusion.
+
+| ![studentdash.png](/assets/images/studentdash.png) | 
+|:--:| 
+| *Student Dashboard* |
+
+**Employers**:  
+- Real-time dashboards displaying utilization metrics and predictive analytics.  
+- Automated billing workflows for seamless operations.  
+
+**Education Providers**:  
+- Advanced content spotlight tools like video testimonials and program-specific promotions.  
+- Performance analytics to measure and optimize content visibility.
+
+## Key Results  
+
+- **Net Promoter Score**: Improved from 6 to 8.  
+- **Accessibility**: Leveraged UserWay for compliance, accelerating contract closure while enabling code refactoring.  
+- **Security**: Established a SaaS Security Program, achieving SOC2 compliance and expediting contract approvals.  
+- **Efficiency**: Introduced iPaaS tools that streamlined reporting and integration with HRIS systems, reducing development cycles from 6 weeks to 3 days.  
+- **Program Engagement**: Implemented video and content spotlight features, boosting student interaction with select providers by 21%.  
+- **User Experience**: Redesigned interface improved satisfaction, reduced Service Team intervention, and shortened call resolution times.
+
+## Next Steps  
+
+The next phase aimed to transition the platform to a product-led model with segmented tiers:  
+- **Free Tier**: A basic tool for businesses to manage education benefits at no cost.  
+- **Premium Tier**: Advanced features like automated billing, in-network school access, and additional support tools.
+
+
+<div id="nanogallery2"></div>
+
+<script>
+$("#nanogallery2").nanogallery2({
+  thumbnailHeight:  150,
+  thumbnailWidth:   150,
+  itemsBaseURL:     '/assets/images/',
+
+  // ### gallery content ###
+  items: [
+      { src: 'wfe.png', srct: 'wfe.png', title: "Program Select" },
+      { src: 'wfe2.png', srct: 'wfe2.png', title: "Program Selector — Before" },
+      { src: 'allotement dash.png', srct: 'dash.png', title: "Allotment Dashboard" },
+      { src: 'split allotment-wfe.png', srct: 'split allotment-wfe.png', title: "Allotment Split" },
+      { src: 'userdash-leigh-wfe.png', srct: 'userdash-leigh-wfe.png', title: "Employee Onboarding" },
+      { src: 'userdash-wfe.png', srct: 'userdash-wfe.png', title: "Employee Dashboard" },
+      { src: 'studentdash.png', srct: 'studentdash.png', title: "Employee Dashboard" },
+      { src: 'payments-wfe.png', srct: 'payments-wfe.png', title: "Payments" },
+      { src: 'employerdash-wfe.png', srct: 'employerdash-wfe.png', title: "Employer Dashboard" },
+  ]
+});
+
+</script>

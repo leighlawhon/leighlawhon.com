@@ -1,0 +1,76 @@
+body { color: black; }
+
+a { color: #f09f00; }
+
+a:visited { color: #da6900; }
+
+h3, h3.archive__subtitle { clear: both; color: #103966; font-family: "Waiting for the Sunrise"; font-size: 1.35em; }
+
+h1, h2 { color: #00a8db; font-family: "Rubik"; font-weight: 700; }
+
+h4 { font-size: 1em; color: #103966; }
+
+p, .sidebar p, .archive__item-title, a, body { font-family: "Work Sans"; }
+
+#main { position: relative; }
+
+@media (min-width: 80em) { #main { max-width: 100%; } }
+@media (min-width: 80em) { .sidebar { width: calc(400px - 1em); } }
+@media (min-width: 80em) { .archive { width: calc(100% - 400px); padding-right: 200px; } }
+.float-left { float: left; margin-right: 2em; }
+
+.author__urls.social-icons a, .author__urls.social-icons a:visited, .page__footer a, .page__footer a:visited { color: #103966; font-weight: 700; }
+
+@media only screen and (min-width: 900px) { .sticky { top: 4em; }
+  .masthead.sticky { top: 0; }
+  h3.author__name { color: #001933; }
+  .sidebar.sticky { background-color: #e2f8ff; padding: 1em; max-height: 100%; height: 100%; position: absolute; top: 0; left: 0em; bottom: 0; } }
+.page__footer { margin-top: 0; }
+
+.archive__item { /* position: relative; */ padding: 0.5em; border: thin solid #ccc; }
+
+@media only screen and (min-width: 900px) { .work .grid__item .archive__item { min-height: 13em; }
+  article.archive__item { height: 17em; } }
+@media only screen and (max-width: 900px) { .archive__item-teaser img { height: auto !important; width: 100% !important; position: absolute; top: -50%; } }
+@media (min-width: 48em) { .grid__item .archive__item .archive__item-excerpt { font-size: 0.6em; } }
+.grid__item .archive__item-title { font-size: 0.9em; }
+
+.archive__item-teaser { border: thin solid #ccc; height: 95px; }
+.archive__item-teaser img { width: 100%; height: auto; }
+
+#nanogallery2.nGY2 .nGY2GThumbnailImage, .nanogallery_gallerytheme_dark_nanogallery2 .nGY2GThumbnail { background-color: white; }
+
+img.avatar { float: left; width: 30%; margin: 0 1em 2em 0; }
+
+.masthead { background-color: #F9D423; }
+
+#site-nav { background-color: transparent; }
+
+#site-nav a, #site-nav a:visited { color: #103966; }
+
+.masthead__menu-item a { font-weight: bold; }
+
+a.site-title { text-transform: uppercase; letter-spacing: .1em; color: #030d17; }
+
+.page__hero--overlay { margin-bottom: 0; }
+
+.page__hero--overlay .wrapper { background-color: #0000007a; padding: 1em; }
+
+img.gallery { max-width: 200px; float: left; margin-right: 10px; margin-top: 10px; border: thin solid #ccc; }
+
+.taxonomy__section { margin-top: 0; margin-bottom: 0; padding-top: 0.5em; }
+
+.taxonomy__section + .taxonomy__section { margin-top: 0; }
+
+.taxonomy__section h3 { margin-top: 0; }
+
+.taxonomy__index a { border: none; padding: 0 5px; border-radius: 5px; background-color: #e2f8ff; }
+
+#skills_table { width: 100%; table-layout: fixed; overflow-wrap: break-word; }
+#skills_table tbody { width: 100%; }
+#skills_table tbody td { vertical-align: top; width: 25%; }
+#skills_table tbody td tbody { width: 100%; }
+
+.nGY2GThumbnailLabel { background-color: rgba(0, 0, 0, 0.089); }
+
+.nGY2GThumbnailTitle { font-size: 14px; }

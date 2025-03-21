@@ -1,0 +1,82 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<h2><span id="subject"> sesson for: </span><span id="persona"> Theme: </span><span id="theme"></span></h2>
+<div class="container text-center">
+    <div class="row">
+        {% for data in site.data.component_learning_select %}
+        <div class="col">
+            <select id= "{{data.name}}_select" class="form-select" aria-label="Default select example">
+                {% for select in data.selects %}
+                <option selected>{{select}}</option>
+                {%endfor%}
+            </select>
+        </div>
+        {%endfor%}
+
+        <div class="col">
+            <select id="summer_sub_select" class="form-select" aria-label="Default select example">
+                <option selected>Select a sub-theme</option>
+                <option value="spiders">Spiders</option>
+                <option value="butterflies">Butterflies</option>
+            </select>
+            <select id="story_sub_select" class="form-select" aria-label="Default select example">
+                <option selected>Select a sub-theme</option>
+                <option value="gatsby">Gatsby</option>
+                <option value="daisy">Daisy</option>
+            </select>
+            <select id="persona_sub_select" class="form-select" aria-label="Default select example">
+                <option selected>Select a sub-theme</option>
+                <option value="cars">Cars</option>
+                <option value="fashion">Fashion</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<table>
+    <tr>
+        <td>
+            <h4>Learning Objective</h4>
+        </td>
+        <td>
+            <h4>Lesson Steps</h4>
+        </td>
+        <td>
+            <h4>Activities</h4>
+        </td>
+        <td>
+            <h4>Theme</h4>
+        </td>
+        <td>
+            <h4>Related Topics</h4>
+        </td>
+    </tr>
+    {%- assign learning_objective = site.data.component_learning_lo -%}
+    {%- assign steps = site.data.component_learning_steps -%}
+    {%- assign activities = site.data.component_learning_activities -%}
+    {%- assign theme = site.data.component_learning_theme -%}
+    {%- assign related_topics = site.data.component_learning_related_topics -%}
+    {% for objective in learning_objective %}
+    <tr>
+        <td>
+            {{objective.objective}}
+        </td>
+        <td>
+            {{steps[index0]}}
+        </td>
+    </tr>
+    {%endfor%}
+
+</table>
+
+<div class="container text-right">
+    <div class="row">
+        <div class="col">
+            <button id="reset" type="button" class="btn">Reset</button>
+        </div>
+    </div>
+</div>
