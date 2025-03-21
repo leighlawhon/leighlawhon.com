@@ -1,8 +1,8 @@
 ---
 layout: posts
-title:  "Infographics"
+title:  "Data Visualization"
 date:   2023-07-01 16:13:27 -0500
-tags: ["Data Visualization"]
+tags: ["Design and Branding"]
 author_profile: true
 author: Leigh Lawhon
 categories: work

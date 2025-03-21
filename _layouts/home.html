@@ -4,7 +4,7 @@ layout: archive
 
 {{ content }}
 
-<h2 style="clear:both">My Best Work</h2>
+<h2 style="clear:both">My Work</h2>
 
 {% if paginator %}
     {% assign posts = paginator.posts %}
@@ -13,7 +13,8 @@ layout: archive
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'grid' %}
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Product Management"
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Web-Based Applications"
     }}</h3>
 <div class="entries-{{ entries_layout }}">
     {% for post in posts %}
@@ -23,25 +24,6 @@ layout: archive
     {% endfor %}
 </div>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Artificial Intelligence" }}
-</h3>
-<div class="entries-{{ entries_layout }}">
-    {% for post in posts %}
-    {% if post.highlight_home and post.categories contains 'work' and post.tags contains 'AI' %}
-    {% include archive-single.html type=entries_layout %}
-    {% endif %}
-    {% endfor %}
-</div>
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Data Visualization" }}
-</h3>
-<div class="entries-{{ entries_layout }}">
-    {% for post in posts %}
-        {% if post.highlight_home and post.categories contains 'work' and post.tags contains 'Data Visualization' %}
-        {% include archive-single.html type=entries_layout %}
-        {% endif %}
-    {% endfor %}
-</div>
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Design and Branding" }}
 </h3>
 <div class="entries-{{ entries_layout }}">
@@ -50,20 +32,12 @@ layout: archive
     {% include archive-single.html type=entries_layout %}
     {% endif %}
     {% endfor %}
-</div>
+</div> 
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Video & 3D Work" }}
-</h3>
-<div class="entries-{{ entries_layout }}">
-    {% for post in posts %}
-    {% if post.highlight_home and post.categories contains 'work' and post.tags contains '3D and Motion Graphics'%}
-    {% include archive-single.html type=entries_layout %}
-    {% endif %}
-    {% endfor %}
-</div>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Tutorials" }}
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Side Gigs" }}
 </h3>
+<h4>Tutorials</h4>
 <div class="entries-{{ entries_layout }}">
     {% for post in posts %}
     {% if post.highlight_home and post.categories contains 'work' and post.tags contains 'Tutorials' %}
@@ -71,22 +45,16 @@ layout: archive
     {% endif %}
     {% endfor %}
 </div>
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Writing" }}</h3>
+<h4 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Painting and Writing" }}</h4>
 <div class="entries-{{ entries_layout }}">
     {% for post in posts %}
-        {% if post.highlight_home and post.categories contains 'article' %}
+        {% if post.highlight_home and (post.categories contains 'article' or post.categories contains 'artwork' or post.categories contains 'Games') %}
             {% include archive-single.html type=entries_layout %}
+
         {% endif %}
     {% endfor %}
 </div>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Artwork" }}</h3>
-<div class="entries-{{ entries_layout }} watercolor">
-    {% for post in posts %}
-    {% if post.highlight_home and post.categories contains 'artwork' %}
-    {% include archive-single.html type=entries_layout %}
-    {% endif %}
-    {% endfor %}
-</div>
+
 
 {% include paginator.html %}

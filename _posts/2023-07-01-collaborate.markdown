@@ -2,7 +2,7 @@
 layout: posts
 title:  "Collaborate Games"
 date:   2023-07-01 16:13:27 -0500
-tags: ["Product Management", EdTech]
+tags: ["Games"]
 author_profile: true
 author: Leigh Lawhon
 author_profile: true

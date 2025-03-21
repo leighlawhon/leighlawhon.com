@@ -1,49 +1,13 @@
 var store = [{
         "title": "EZ-Read",
         "excerpt":"Background In 2024 I submitted a Department of Education SBIR grant proposal for EZ-Read, an AI-driven tool that converts text-only literature to graphic novels. The goal of this R&amp;D project is to assess this tool and whether it improves reading comprehension for neurodivergent users. Problem Statement Despite the proven benefits...","categories": ["work"],
-        "tags": ["EdTech","Product Management","AI"],
+        "tags": ["Product Management"],
         "url": "/work/2023/01/24/EZRead.html",
         "teaser": "/assets/images/greatgatsby.png"
       },{
-        "title": "Part 3: How to win at a hackathon",
-        "excerpt":"“No struggle, no success! The strongest thunder strikes often bring the heaviest rainfall! The weight of your fulfillment depends on how wide you cast your nets! If you are trying to look clean, neat and avoid casting your nets in troubled waters, you will catch no fish.” ― Israelmore Ayivor,...","categories": ["article"],
-        "tags": ["Part"],
-        "url": "/article/2023/06/21/how-to-win-at-a-hackathon-3.html",
-        "teaser": "https://images.unsplash.com/photo-1574664620916-fb955a65cab3"
-      },{
-        "title": "Accelerating your Career",
-        "excerpt":"Looking back on my career, there are a few things I wish I had done earlier to boost my career progression and enhance my marketability. In this article, I will share my experience and highlight four professional services that have significantly accelerated my career and improved my standing in the...","categories": ["article"],
-        "tags": ["Career"],
-        "url": "/article/2023/06/21/professional-services.html",
-        "teaser": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
-      },{
-        "title": "Project-Based, Organic Education",
-        "excerpt":"Background We all learn differntly, at different rates, from different cultures and perspectives, and from different levels of understanding. Additionally, trends in education like self-paced, onlie courses, and micro-credentials are changing the way we learn. I, for instance, have always believed in Project-Based learning. I typically learn something new when...","categories": ["article"],
-        "tags": ["Education"],
-        "url": "/article/2023/06/21/project_based_organic_learning.html",
-        "teaser": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
-      },{
-        "title": "Part 2: How to win at a hackathon",
-        "excerpt":"“You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something—your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made...","categories": ["article"],
-        "tags": ["Part"],
-        "url": "/article/2023/06/21/how-to-win-at-a-hackathon-2.html",
-        "teaser": "https://images.unsplash.com/photo-1512928210967-3dced5ba507b"
-      },{
-        "title": "How to win at a hackathon",
-        "excerpt":"This article is written in three parts:     Part 1: Investing in the “Dots”   Part 2: Connecting the “Dots”   Part 3: Casting the “Dots,” wide and far   ","categories": ["article"],
-        "tags": ["Career"],
-        "url": "/article/2023/06/21/how-to-win-at-a-hackathon-intro.html",
-        "teaser": "https://images.unsplash.com/photo-1611444111920-89dfc4a01f43"
-      },{
-        "title": "Part 1: How to win at a hackathon",
-        "excerpt":"Time and pressure can change almost anything from what it was into what it has become. Time will change, “Caterpillar into butterflies, sand into pearls,” and pressure will change “coal into diamonds,” both elements work on us too. — (paraphrased from Rick Warren) I recently participated in the A.team’s Generative...","categories": ["article"],
-        "tags": ["Part"],
-        "url": "/article/2023/06/21/how-to-win-at-a-hackathon.html",
-        "teaser": "https://images.unsplash.com/photo-1611444111920-89dfc4a01f43"
-      },{
         "title": "Alika's Treehouse",
         "excerpt":"Background This project won the Capital One Women in Tech Demo Day. The challenge, “Help young women of color see themselves as a Computer Scientist,” was sponsored by Black Girls Code. I deeply related to this challenge, as my father is in the tech industry but it took me until...","categories": ["work"],
-        "tags": ["Tutorials","EdTech"],
+        "tags": ["Tutorials"],
         "url": "/work/2023/07/01/alikas-treehouse.html",
         "teaser": "https://images.unsplash.com/photo-1542831371-29b0f74f9713"
       },{
@@ -55,7 +19,7 @@ var store = [{
       },{
         "title": "Collaborate Games",
         "excerpt":"Background In 2019 I was awarded a Department of Education SBIR grant to build an educational board game about collaboration. Though the game would eventually be a series, focusing on different STEM vocations, the first prototype focused on collaboration in tech. Research shows that the top skill missing from new...","categories": ["work"],
-        "tags": ["Product Management","EdTech"],
+        "tags": ["Games"],
         "url": "/work/2023/07/01/collaborate.html",
         "teaser": "/assets/images/game_landscape@3x.png"
       },{
@@ -103,13 +67,13 @@ var store = [{
       },{
         "title": "Life Technologies",
         "excerpt":"Background The Life Sciences division required a revamp of the outdated Cancer Assay interface, necessitating a transition to a more contemporary programming language. Tasked with this project, I initiated a thorough process of user research, which subsequently informed iterative design enhancements. Approach In collaboration with the business leads, I conducted...","categories": ["work"],
-        "tags": ["Data Visualization"],
+        "tags": ["Product Management"],
         "url": "/work/2023/07/01/life.html",
         "teaser": "/assets/images/life.png"
       },{
         "title": "Synapse",
         "excerpt":"Background The client’s objective for this prototype was to leverage Natural Language Processing (NLP) for aggregating data from Pub Med articles. The goal was to identify commonalities among articles pertaining to drugs, diseases, and genes, ultimately aiding researchers in uncovering new applications for drugs. Approach I crafted and implemented this...","categories": ["work"],
-        "tags": ["Data Visualization","AI"],
+        "tags": ["Product Management"],
         "url": "/work/2023/07/01/synapse.html",
         "teaser": "/assets/images/synapse.png"
       },{
@@ -137,9 +101,9 @@ var store = [{
         "url": "/work/2023/07/01/gyro.html",
         "teaser": "/assets/images/gyro.png"
       },{
-        "title": "Infographics",
+        "title": "Data Visualization",
         "excerpt":"Introduction As a graphic designer I created many infographics for companies such as Social Progress Index, the American Society of Interior Designers and the Corporate Executive Board. For each infographic, I focus on the clarity of the information, incorporating shapes, color and contrast. Below are some examples of my work....","categories": ["work"],
-        "tags": ["Data Visualization"],
+        "tags": ["Design and Branding"],
         "url": "/work/2023/07/01/infographics.html",
         "teaser": "/assets/images/socialprogress.png"
       },{
@@ -172,16 +136,4 @@ var store = [{
         "tags": ["Portraits"],
         "url": "/artwork/2023/09/01/watercolor-portraits.html",
         "teaser": "/assets/images/naomi1_t.png"
-      },{
-        "title": "SmartHistory",
-        "excerpt":"Background As an Product Manager, I regularly search the internet to support my projects, researching many topics across many types of sties. An example project is the research I did for my 2024 SBIR grant, which included searches on ADHD, Autism, Machine Learning, Generative AI, and SBIR requirements. I found...","categories": ["work"],
-        "tags": ["AI","Product Management"],
-        "url": "/work/2024/01/21/smarthistory.html",
-        "teaser": "https://images.unsplash.com/photo-1477013743164-ffc3a5e556da"
-      },{
-        "title": "Prioritization",
-        "excerpt":"Background Working at a SaaS startup can introduce unique prioritization challenges. You typically work with a small dev team, have many features to execute, on and have many stakeholders competing for their work. There are several ways to approach prioritization, but inevitably you will run into a situation where stakeholders...","categories": ["article"],
-        "tags": ["PdM in Practice"],
-        "url": "/article/2024/02/13/prioritization.html",
-        "teaser": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
       }]
