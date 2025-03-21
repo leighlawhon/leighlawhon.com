@@ -37,6 +37,16 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Side Gigs" }}
 </h3>
+
+<h4>3D and Motion Graphics</h4>
+<div class="entries-{{ entries_layout }}">
+    {% for post in posts %}
+    {% if post.categories contains 'work' and post.tags contains '3D and Motion Graphics' %}
+    {% include archive-single.html type=entries_layout %}
+    {% endif %}
+    {% endfor %}
+</div>
+
 <h4>Tutorials</h4>
 <div class="entries-{{ entries_layout }}">
     {% for post in posts %}
@@ -45,7 +55,8 @@ layout: archive
     {% endif %}
     {% endfor %}
 </div>
-<h4 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Painting and Writing" }}</h4>
+
+<h4>Painting and Writing</h4>
 <div class="entries-{{ entries_layout }}">
     {% for post in posts %}
         {% if post.highlight_home and (post.categories contains 'article' or post.categories contains 'artwork' or post.categories contains 'Games') %}

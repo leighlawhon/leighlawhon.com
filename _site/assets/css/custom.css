@@ -40,6 +40,8 @@ p, .sidebar p, .archive__item-title, a, body { font-family: "Work Sans"; }
 
 #nanogallery2.nGY2 .nGY2GThumbnailImage, .nanogallery_gallerytheme_dark_nanogallery2 .nGY2GThumbnail { background-color: white; }
 
+.entries-grid { display: flex; }
+
 img.avatar { float: left; width: 30%; margin: 0 1em 2em 0; }
 
 .masthead { background-color: #F9D423; }
