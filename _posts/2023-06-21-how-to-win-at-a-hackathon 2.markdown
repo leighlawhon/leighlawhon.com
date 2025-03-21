@@ -5,7 +5,7 @@ date:   2023-06-21 19:14:27 -0500
 tagline: "Connecting the 'Dots'"
 tags: [Part]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: article
 header:
     overlay_image: https://images.unsplash.com/photo-1512928210967-3dced5ba507b

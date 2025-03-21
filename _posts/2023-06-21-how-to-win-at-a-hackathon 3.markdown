@@ -5,9 +5,9 @@ tagline: "Casting the 'Dots'wide and far"
 date:   2023-06-21 19:13:27 -0500
 tags: [ Part]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: article
 header:
     overlay_image: https://images.unsplash.com/photo-1574664620916-fb955a65cab3

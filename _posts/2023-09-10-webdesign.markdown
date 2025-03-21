@@ -4,14 +4,14 @@ title:  "Web Design"
 date:   2023-07-01 16:13:27 -0500
 tags: ["Design and Branding"]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: work
 highlight_home: true
 tagline: "Various Web Designs"
 header:
   overlay_image: /assets/images/kinimetrick.jpeg
   teaser:  /assets/images/kinimetrick.jpeg
-  caption: "Photo credit: **Leigh Stewardson**"
+  caption: "Photo credit: **Leigh Lawhon**"
 description: This article showcases the game Collaborate and how I build it.
 ---
 

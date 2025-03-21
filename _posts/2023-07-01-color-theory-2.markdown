@@ -4,7 +4,7 @@ title:  "Part 2: Color Theory"
 date:   2023-07-01 16:13:27 -0500
 tags: [Part]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: article
 tagline: "Color and Emotions"
 header:

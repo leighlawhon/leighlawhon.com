@@ -6,7 +6,7 @@ date:   2024-02-13 19:13:27 -0500
 categories: article
 tags: ["PdM in Practice"]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 header:
  teaser: https://images.unsplash.com/photo-1516321318423-f06f85e504b3
  overlay_image: https://images.unsplash.com/photo-1516321318423-f06f85e504b3

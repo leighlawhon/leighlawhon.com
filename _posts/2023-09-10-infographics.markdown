@@ -4,14 +4,14 @@ title:  "Infographics"
 date:   2023-07-01 16:13:27 -0500
 tags: ["Data Visualization"]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: work
 highlight_home: true
 tagline: "Various Infographics"
 header:
   overlay_image: /assets/images/socialprogress.png
   teaser:  /assets/images/socialprogress.png
-  caption: "Photo credit: **Leigh Stewardson**"
+  caption: "Photo credit: **Leigh Lawhon**"
 description: This article showcases the game Collaborate and how I build it.
 ---
 

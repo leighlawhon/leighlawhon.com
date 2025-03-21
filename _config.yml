@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Leigh Stewardson
+title: Leigh Lawhon
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a multifaceted Product Manager with extensive experience in design and development. 
@@ -47,7 +47,7 @@ defaults:
       type: posts
     values:
       author_profile: true
-      author: Leigh Stewardson
+      author: Leigh Lawhon
       show_date: true
 search: true
 # Exclude from processing.

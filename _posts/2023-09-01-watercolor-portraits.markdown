@@ -4,7 +4,7 @@ title:  "Watercolour Portraits"
 date:   2023-09-01 16:13:27 -0500
 tags: [Portraits]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: artwork
 highlight_home: true
 tagline: ""
@@ -16,7 +16,7 @@ header:
 description: This article explains the BARN method, a framework for showcasing your projects.
 ---
 
-I have recently switched mediums and now work in watercolour. I build up layers of color and texture to create three-dimensional work that captures the spirit of my models. My work can be found at [my Etsy store](https://www.etsy.com/shop/LeighStewardson)
+I have recently switched mediums and now work in watercolour. I build up layers of color and texture to create three-dimensional work that captures the spirit of my models. My work can be found at [my Etsy store](https://www.etsy.com/shop/LeighLawhon)
 
 
 <div id="nanogallery2"></div>

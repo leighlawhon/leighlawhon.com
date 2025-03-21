@@ -1,17 +1,16 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.26.1 by Michael Rose
-  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>About - Leigh Lawhon</title>
-<meta name="description" content="This is the learning design portfolio for Leigh Lawhon">
+<meta name="description" content="I am a multifaceted Product Manager with extensive experience in design and development.">
 
 
 
@@ -19,13 +18,10 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Leigh Lawhon">
 <meta property="og:title" content="About">
-<meta property="og:url" content="http://localhost:4000/lxd/about/">
+<meta property="og:url" content="http://localhost:4000/about/">
 
 
-  <meta property="og:description" content="This is the learning design portfolio for Leigh Lawhon">
-
-
-
+  <meta property="og:description" content="I am a multifaceted Product Manager with extensive experience in design and development.">
 
 
 
@@ -35,12 +31,24 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/lxd/about/">
+
+
+
+<link rel="canonical" href="http://localhost:4000/about/">
 
 
 
 
-
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
 
 
 
@@ -51,17 +59,21 @@
 <!-- end _includes/seo.html -->
 
 
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Leigh Lawhon Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script type="text/javascript">
+<script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/lxd/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
 
@@ -78,16 +90,16 @@
 <meta name="generator" content="Jekyll v3.10.0" />
 <meta property="og:title" content="About" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This is the learning design portfolio for Leigh Lawhon" />
-<meta property="og:description" content="This is the learning design portfolio for Leigh Lawhon" />
-<link rel="canonical" href="http://localhost:4000/lxd/about/" />
-<meta property="og:url" content="http://localhost:4000/lxd/about/" />
+<meta name="description" content="I am a multifaceted Product Manager with extensive experience in design and development." />
+<meta property="og:description" content="I am a multifaceted Product Manager with extensive experience in design and development." />
+<link rel="canonical" href="http://localhost:4000/about/" />
+<meta property="og:url" content="http://localhost:4000/about/" />
 <meta property="og:site_name" content="Leigh Lawhon" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="About" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"This is the learning design portfolio for Leigh Lawhon","headline":"About","name":"Leigh Lawhon","url":"http://localhost:4000/lxd/about/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"I am a multifaceted Product Manager with extensive experience in design and development.","headline":"About","name":"Leigh Lawhon","url":"http://localhost:4000/about/"}</script>
 <!-- End Jekyll SEO tag -->
 
 <!-- jQuery -->
@@ -108,6 +120,10 @@
   </ul>
 </nav>
 
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
     
 
 <div class="masthead">
@@ -115,29 +131,22 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/lxd/">
+        <a class="site-title" href="/">
           Leigh Lawhon
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a
-                href="/lxd/mywork"
-                
-                
-              >My Work</a>
+              <a href="/mywork">My Work</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/lxd/writing"
-                
-                
-              >My Writing</a>
+              <a href="/writing">My Writing</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/lxd/about"
-                
-                
-              >About Me</a>
+              <a href="/about">About Me</a>
             </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -163,15 +172,15 @@
     
       <h1 id="page-title" class="page__title">About</h1>
     
-    <p><img src="/lxd/assets/images/bioshot.jpeg" alt="leigh avatar" class="avatar" /></p>
-<h1 id="hi-there-im-leigh-stewardson">Hi there, I’m Leigh Stewardson!</h1>
+    <p><img src="/assets/images/bioshot.jpeg" alt="leigh avatar" class="avatar" /></p>
+<h1 id="hi-there-im-leigh-lawhon">Hi there, I’m Leigh Lawhon!</h1>
 <p>I started my career as a designer. I was very good at the details of the software programs I was using and began to teach. Through the years, I became curious about how software was created and why some products were hard to use while others were intuitive. This led me to my second career in UI design and frontend development. I taught myself HTML, CSS and JavaScript and soon began designing and building my own user-centric, React and Node applications.</p>
 
 <p>I’m passionate about building beautiful and user-centric products for the web. I am a lifelong learner who loves to teach, which has led to my role as a Product Manager in the EdTech space.</p>
 
 <p>I currently looking for work that utilizes my expertise and industry knowledge and allows me to grow as a Product Manager and strategist.</p>
 
-<p><a href="https://leighlawhon.github.io/assets/leigh-stewardson-resume-24.pdf" target="_blank"><strong>Click here for my resume</strong></a></p>
+<p><a href="https://leighlawhon.github.io/assets/leigh-Lawhon-resume-24.pdf" target="_blank"><strong>Click here for my resume</strong></a></p>
 
 <h3 id="my-skills">My Skills</h3>
 
@@ -299,10 +308,19 @@
 
   </div>
 </div>
-
-      
     </div>
 
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
     
 
     <div id="footer" class="page__footer">
@@ -315,18 +333,25 @@
     
 
     
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Leigh Lawhon</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 Leigh Lawhon. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
-  <script src="/lxd/assets/js/main.min.js"></script>
+  <script src="/assets/js/main.min.js"></script>
 
 
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 

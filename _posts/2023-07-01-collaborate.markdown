@@ -4,16 +4,16 @@ title:  "Collaborate Games"
 date:   2023-07-01 16:13:27 -0500
 tags: ["Product Management", EdTech]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: work
 highlight_home: true
 tagline: "Work together, win the game"
 header:
   overlay_image: /assets/images/game_landscape@3x.png
   teaser:  /assets/images/game_landscape@3x.png
-  caption: "Photo credit: **Leigh STewardson**"
+  caption: "Photo credit: **Leigh Lawhon**"
 description: This article showcases the game Collaborate and how I build it.
 ---
 

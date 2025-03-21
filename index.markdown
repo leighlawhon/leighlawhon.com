@@ -4,9 +4,9 @@
 
 layout: home
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 ---
 
 ![leigh avatar](/assets/images/bioshot.jpeg){: .avatar} 
-# Hi! I'm Leigh Stewardson. 
+# Hi! I'm Leigh Lawhon. 
 I am a multifaceted Product Manager with extensive experience in design, development and teaching. Check out some of my favorite projects below or go to [**My Work**](/mywork) or [**My Writing**](/writing) to see a categorized list.

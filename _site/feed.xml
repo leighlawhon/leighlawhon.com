@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-21T07:07:50-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leigh Lawhon</title><subtitle>I am a multifaceted Product Manager with extensive experience in design and development. </subtitle><entry><title type="html">Prioritization</title><link href="http://localhost:4000/article/2024/02/13/prioritization.html" rel="alternate" type="text/html" title="Prioritization" /><published>2024-02-13T19:13:27-05:00</published><updated>2024-02-13T19:13:27-05:00</updated><id>http://localhost:4000/article/2024/02/13/prioritization</id><content type="html" xml:base="http://localhost:4000/article/2024/02/13/prioritization.html"><![CDATA[<h2 id="background">Background</h2>
+<p>Working at a SaaS startup can introduce unique prioritization challenges. You typically work with a small dev team, have many features to execute, on and have many stakeholders competing for their work. There are several ways to approach prioritization, but inevitably you will run into a situation where stakeholders and their work will have equal priority and you will have to make a call.</p>
+
+<p>In this article, I present my approach to prioritization and what to do when there is a stalemate. To illustrate this, I will use the following <strong>FIFO</strong> (first in first out) prioritized list of features for a fake SaaS Startup in the Growth stage:</p>
+
+<table>
+    <thead>
+        <td>Priority</td>
+        <td>Org Team</td>
+        <td>Feature</td>
+        <td>Goal</td>
+        <td>Deadline</td>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td>1</td>
+            <td>
+                Sales
+            </td>
+            <td>
+                Billing and Invoicing management
+            </td>
+            <td>
+                To close contracts and grow user base
+            </td>
+            <td>
+                Q1 2022 contract
+            </td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>
+                Service
+            </td>
+            <td>
+                CRM integration
+            </td>
+            <td>
+                To reduce swivel-chairing and improve time to task completion
+            </td>
+            <td>
+                no deadline
+            </td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>
+                Marketing
+            </td>
+            <td>
+                Rank and promote partner products
+            </td>
+            <td>
+                Promote top products and increase sales
+            </td>
+            <td>
+                Launch waiting on feature release
+            </td>
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td>
+                Developers
+            </td>
+            <td>
+                Databse restructure
+            </td>
+            <td>
+                Reduce technical debt and improve performance
+            </td>
+            <td>
+                no deadline
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+
+<h2 id="approach">Approach</h2>
+<p>Let’s start with two basic prioritization techniques, MoSCoW and BRICE, to get an idea of how to prioritize when there is a clear hierarchy.</p>
+
+<h3 id="basic-prioritization-methods">Basic Prioritization Methods</h3>
+<p>The following frameworks help Product Managers put metrics around feature requests and cumminicate prioritization. Not only do these frame works allow PdMs to create a roadmap (when things will get done), they can help your stakehodlers understand why their work is prioritized the way it is.</p>
+
+<h4 id="moscow">MoSCoW</h4>
+<p>MoSCoW, or Must, Should, Could, Wont (right now) is an easy to uderstand framework that can quickly sequence your feature requests. <em>For simplicity,</em> I will bucket the requests in the following ways (Note: there are mutlple ways to buckets and they often depend on company goals):</p>
+<ul>
+  <li><strong>Must Do:</strong>
+    <ul>
+      <li>A feature is broken and preventing usage of the app.</li>
+      <li>There is a deadline that is enforced by a contract or compliance.</li>
+      <li>The request is preventing another team from completing their work.</li>
+    </ul>
+  </li>
+  <li><strong>Should Do:</strong>
+    <ul>
+      <li>A feature is broken, but there is a good workaround.</li>
+      <li>A feature is missing and pushing users to a competitor.</li>
+    </ul>
+  </li>
+  <li><strong>Could Do:</strong>
+    <ul>
+      <li>The exeprience can be improved, but the feature is currently working as designed.</li>
+      <li>A feature is at the MVP stage, has clear feedback, and is ready for an itteration.</li>
+    </ul>
+  </li>
+  <li><strong>Wont Do (right now):</strong>
+    <ul>
+      <li>No evidence of improvement to the experience and needs to be tested.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Below is how our feature list is prioritized with <strong>MoSCoW</strong>:</p>
+<table>
+    <thead>
+        <td>Priority</td>
+        <td>Org Team</td>
+        <td>Feature</td>
+        <td>Goal</td>
+        <td>Deadline</td>
+    </thead>
+    <tbody>
+        
+            
+                
+                <tr>
+                    <td>Must</td>
+                    <td>
+                        Sales
+                    </td>
+                    <td>
+                        Billing and Invoicing management
+                    </td>
+                    <td>
+                        To close contracts and grow user base
+                    </td>
+                    <td>
+                        Q1 2022 contract
+                    </td>
+                </tr>
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+                <tr>
+                    <td>Could</td>
+                    <td>
+                        Service
+                    </td>
+                    <td>
+                        CRM integration
+                    </td>
+                    <td>
+                        To reduce swivel-chairing and improve time to task completion
+                    </td>
+                    <td>
+                        no deadline
+                    </td>
+                </tr>
+                
+            
+                
+            
+                
+            
+        
+            
+                
+            
+                
+            
+                
+                <tr>
+                    <td>Won't</td>
+                    <td>
+                        Marketing
+                    </td>
+                    <td>
+                        Rank and promote partner products
+                    </td>
+                    <td>
+                        Promote top products and increase sales
+                    </td>
+                    <td>
+                        Launch waiting on feature release
+                    </td>
+                </tr>
+                
+            
+                
+                <tr>
+                    <td>Won't</td>
+                    <td>
+                        Developers
+                    </td>
+                    <td>
+                        Databse restructure
+                    </td>
+                    <td>
+                        Reduce technical debt and improve performance
+                    </td>
+                    <td>
+                        no deadline
+                    </td>
+                </tr>
+                
+            
+        
+    </tbody>
+</table>
+
+<p>So, you may be wondering why I ranked these the way I did. Below is the reasoning for my buckets:</p>
+<ul>
+  <li><strong>Sales:</strong> There is a clearly defined deadline, and even if there wasn’t, this feature might fall into the “Should” column.</li>
+  <li><strong>Service:</strong> One might argue that this could go in the “Should” column, but I dropped it to the “Could” colum because of the ability to rely on a human interface, the Service team. Though not a great exeprience for the team, which could lead to attrition, there is little to no impact for the user.</li>
+  <li><strong>Marketing:</strong> This one is interesting. It sounds good, but if you dig deeper, the ranking system is problematic. If you are buying a carton of milk FIFO (first in first out) works. However, if you are shopping for non-perishable items, there are other variables that influence your decisions. You will notice sites like Amazon don’t just rank their products, they highlight shiping time, ratings, and savings/price (the things that would influence a decision). Additionally, they use media/advertising at the top of the page to promote brands. I put this one in “Won’t (Right Now)” because I don’t believe that simply putting our partners at the top of a list will achieve the goal of getting more sales for them and adding a ranking system to our data will be hard to manage and become quickly outdated. The idea needs more research.</li>
+  <li><strong>Developers:</strong> The poor development team rarely gets love in these situations. As  SaaS products grow and teams evolve, technical debt accumulates. This can lead to slow performace for the product and slower development times and poor experiences for the developers, which could lead to attrition.</li>
+</ul>
+
+<p>MoSCow becomes more complicated when you start asking questions such as, “impact and/or experience for who?” Should a product manager only focus on exepriences for the user? Or should they also consider exepriences for the staff? Additionally, should a product manager only be concerned with getting features out, or should they also be looking at performance and business goals like promoting preferred vendor products to improve partnerships. To address these concerns, we’ll next look at BRICE.</p>
+
+<h4 id="brice">BRICE</h4>
+<p>BRICE (or RICE if you choose to take out the business value) is an acronym for Business Value (1-3), Reach (0-1), Impact (0-1), Confidence (0-1), Effort (1-4). The formula is simple: <strong>(B x R x I x C)/E</strong>. It measures the features overall importance breakes it down to units of the over all effort it takes to complete. If the overall importance/effort of feature A is 6/1 and feature be is 6/3, feature A gets done first, as it has a higher score. (Note: this formula emphasizes Busines Value and under values projects with a high Effort. In this case, a start up that wants to get impactful work out quickly, the formula makes sense. The emphasis, however, can be modified by changing the range for the value.)</p>
+
+<p>Let’s look at what our ranking looks like with our new framework to think this through. To calculate this, we’ll need the fake company’s very simple, ranked OKRs for the year (usually this is done quarterly):</p>
+
+<p><strong>Key Objective:</strong> Grow user base</p>
+<ul>
+  <li><strong>Result:</strong> 5x customers by End of Year</li>
+  <li><strong>Business Value:</strong> 3
+<strong>Key Objective:</strong> Improve partner profit margins</li>
+  <li><strong>Result:</strong> Increase partner product engagement by 30%</li>
+  <li><strong>Business Value:</strong> 2
+<strong>Key Objective:</strong> Grow development team</li>
+  <li><strong>Result:</strong> Decrease atrition in by 20%</li>
+  <li><strong>Business Value:</strong> 1</li>
+</ul>
+
+<p>With this new perspective, our ranking changes a bit:</p>
+<table>
+    <thead>
+        <td>Priority</td>
+        <td>Org Team</td>
+        <td>Feature</td>
+        <td>Goal</td>
+        <td>Deadline</td>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td> 
+                     6
+                    <br /><small>(3 + 1 + 1 + 1) / 1</small></td>
+                <td>
+                    Sales
+                </td>
+                <td>
+                    Billing and Invoicing management
+                </td>
+                <td>
+                    To close contracts and grow user base
+                </td>
+                <td>
+                    Q1 2022 contract
+                </td>
+            </tr>
+        
+            <tr>
+                <td> 
+                     4
+                    <br /><small>(2 + 1 + 1 + 0) / 1</small></td>
+                <td>
+                    Marketing
+                </td>
+                <td>
+                    Rank and promote partner products
+                </td>
+                <td>
+                    Promote top products and increase sales
+                </td>
+                <td>
+                    Launch waiting on feature release
+                </td>
+            </tr>
+        
+            <tr>
+                <td> 
+                     0.95
+                    <br /><small>(0 + 0.5 + 0.5 + 0.9) / 2</small></td>
+                <td>
+                    Service
+                </td>
+                <td>
+                    CRM integration
+                </td>
+                <td>
+                    To reduce swivel-chairing and improve time to task completion
+                </td>
+                <td>
+                    no deadline
+                </td>
+            </tr>
+        
+            <tr>
+                <td> 
+                     0.73
+                    <br /><small>(1 + 0.5 + 0.2 + 0.5) / 3</small></td>
+                <td>
+                    Developers
+                </td>
+                <td>
+                    Databse restructure
+                </td>
+                <td>
+                    Reduce technical debt and improve performance
+                </td>
+                <td>
+                    no deadline
+                </td>
+            </tr>
+        
+    </tbody>
+</table>
+
+<p>The BRICE (with the appropriate emphasis) seems to work. However, there is other things to consider, before we take these features in order of BRICE.</p>
+
+<h3 id="tradeoffs">Tradeoffs</h3>
+<p>Good communication with your stakeholders is key to prioritization. Let’s take the feaure request from the Servicing team. Their goal is to reduce the amount of time they take to service a client. Let’s assume all clients call into the Service team to get advice on products and manage their billing and invoices. The team believes that integrating their CRM with financial and product data from the the SaaS product will improve their times to service a customer. But notice, the Sales feature, and the marketing feature, which are self-service, also achieve a percentage of these goals by reducing the amount of requests the Service team recieves. Developing 4 features is time consuming and the company is concerned about getting the work out quickly.</p>
+
+<p>This is where your influence and communication become crucial. Often requests can be made in isolation, without the knowledge of another team’s request. The approach here may be to cut the Service feature request and revisit their needs once the other features are released.</p>
+
+<h3 id="prioritizing-for-development">Prioritizing for Development</h3>
+<p>Each feature has a software development lifecycle (SDLC) that we can leverage:</p>
+<ul>
+  <li>Discovery/Plan (assumption: Discovery is performed by the Product Team)</li>
+  <li>Design</li>
+  <li>Development/Implement (assumption: Development includes testing)</li>
+  <li>Deploy (happens every 2 weeks)</li>
+</ul>
+
+<p>Depending on the feature, each phase can take a different length of time. Here is the revised list (minus the Servicing request) and the length of time for each phase in the SDLC. This is where your partnership with you development team is crucial. They can provide you with high-level estimates and help you prioritize in a way which keeps the development team working efficiently.</p>
+
+<table>
+    <thead>
+        <td>Priority</td>
+        <td>Feature</td>
+        <td>Discovery</td>
+        <td>Design</td>
+        <td>Development</td>
+    </thead>
+    <tbody>
+        
+            
+            <tr>
+                <td> 
+                    6
+                </td>
+                <td>
+                    Billing and Invoicing management
+                </td>
+                <td>
+                    3 weeks
+                </td>
+                <td>
+                    2 weeks
+                </td>
+                <td>
+                    8 weeks
+                </td>
+            </tr>
+            
+        
+            
+            <tr>
+                <td> 
+                    4
+                </td>
+                <td>
+                    Rank and promote partner products
+                </td>
+                <td>
+                    1 weeks
+                </td>
+                <td>
+                    0.5 weeks
+                </td>
+                <td>
+                    1 weeks
+                </td>
+            </tr>
+            
+        
+            
+        
+            
+            <tr>
+                <td> 
+                    0.73
+                </td>
+                <td>
+                    Databse restructure
+                </td>
+                <td>
+                    0 weeks
+                </td>
+                <td>
+                    0 weeks
+                </td>
+                <td>
+                    3 weeks
+                </td>
+            </tr>
+            
+        
+    </tbody>
+</table>
+
+<h2 id="reults">Reults</h2>
+<p>The final prioritization looks like this:</p>
+
+<table>
+    <thead>
+        <td>Feature</td>
+        <td>SP 1</td>
+        <td>SP 2</td>
+        <td>SP 3</td>
+        <td>SP 4</td>
+        <td>SP 5</td>
+        <td>SP 6</td>
+        <td>SP 7</td>
+        <td>SP 8</td>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Databse restructure</td>
+            <td>DEV</td>
+            <td>DEV, DPL </td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td>Billing and Invoicing management</td>
+            <td>DISC</td>
+            <td>DISC, DSN</td>
+            <td>DSN, DEV </td>
+            <td>DEV</td>
+            <td>DEV</td>
+            <td>DEV</td>
+            <td>DEV</td>
+            <td>DPL</td>
+        </tr>
+        <tr>
+            <td>Rank and promote partner products</td>
+            <td>--</td>
+            <td>DISC </td>
+            <td>DSN</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>DEV</td>
+            <td>DPL</td>
+        </tr>
+    </tbody>
+</table>]]></content><author><name>Leigh Lawhon</name></author><category term="article" /><category term="PdM in Practice" /><summary type="html"><![CDATA[Background Working at a SaaS startup can introduce unique prioritization challenges. You typically work with a small dev team, have many features to execute, on and have many stakeholders competing for their work. There are several ways to approach prioritization, but inevitably you will run into a situation where stakeholders and their work will have equal priority and you will have to make a call.]]></summary></entry><entry><title type="html">SmartHistory</title><link href="http://localhost:4000/work/2024/01/21/smarthistory.html" rel="alternate" type="text/html" title="SmartHistory" /><published>2024-01-21T19:13:27-05:00</published><updated>2024-01-21T19:13:27-05:00</updated><id>http://localhost:4000/work/2024/01/21/smarthistory</id><content type="html" xml:base="http://localhost:4000/work/2024/01/21/smarthistory.html"><![CDATA[<h2 id="background">Background</h2>
+<p>As an Product Manager, I regularly search the internet to support my projects, researching many topics across many types of sties. An example project is the research I did for my 2024 SBIR grant, which included searches on ADHD, Autism, Machine Learning, Generative AI, and SBIR requirements. I found that it was hard to track this work, even with well organized bookmarks using Google Chrome.</p>
+
+<p>Being in the tech industry for more than 20 years, my Chrome bookmarks are out of date. Additionally, the top down organization makes referencing material that may support another project difficult to find, relying only on my memory as to where I bookmarked the information.</p>
+
+<p>Additionally, when working on <a href="/work/2023/07/01/synapse.html">Synapse</a>, there was a feature frequest for a history tracker, allowing researchers to see the progression of their research. I saw a similar need for my own work, as I am interested in researching how I learn a topic. You can learn more about my approach to organic learning in my article <a href="/article/2024/01/31/project_based_organic_learning.html">Project-Based, Organic Learning</a></p>
+
+<h3 id="problem-statement">Problem Statement</h3>
+<p>Searching the internet for work, hobies, projects and interests is a dialy occurance. Site History contains a wealth of knowledge, but is unstructures. Manual bookmarks, the current solution, quickly become outdated and unmanageable.</p>
+
+<h3 id="vision">Vision</h3>
+<p>Unlike other products in the market, SmartHistory focuses on the path knowledge workers take on project. It automatically tags page content and the type of site. Tagged content can then be cross referenced across multiple projects, creating an up-to-date, flexible bookmarking system that meets the needs of modern internet users.</p>
+
+<div id="nanogallery4"></div>
+<script>
+  $("#nanogallery4").nanogallery2({
+    // ### gallery settings ###
+    thumbnailHeight:  150,
+    thumbnailWidth:   150,
+    itemsBaseURL:     '/assets/images/',
+
+    // ### gallery content ###
+    items: [
+        { src: 'vision.png', srct: 'vision.png' },
+        { src: 'howwhatwhy.png', srct: 'howwhatwhy.png' },
+
+    ]
+    });
+</script>
+
+<h3 id="market-analysis">Market Analysis</h3>
+<div id="nanogallery3"></div>
+<script>
+  $("#nanogallery3").nanogallery2({
+    // ### gallery settings ###
+    thumbnailHeight:  150,
+    thumbnailWidth:   150,
+    itemsBaseURL:     '/assets/images/',
+
+    // ### gallery content ###
+    items: [
+        { src: '5C.png', srct: '5C.png' },
+        { src: 'Competitive Analysis.png', srct: 'Competitive Analysis.png' },
+
+    ]
+    });
+</script>
+
+<h3 id="storyboards">Storyboards</h3>
+
+<div id="nanogallery2"></div>
+<script>
+  $("#nanogallery2").nanogallery2({
+    // ### gallery settings ###
+    thumbnailHeight:  150,
+    thumbnailWidth:   150,
+    itemsBaseURL:     '/assets/images/',
+
+    // ### gallery content ###
+    items: [
+        { src: 'UIDesign.png', srct: 'UIDesign.png' },
+        { src: 'General.png', srct: 'General.png' },
+        { src: 'Research.png', srct: 'Research.png' },
+
+    ]
+    });
+</script>
+
+<h3 id="personas">Personas</h3>
+<div id="nanogallery1"></div>
+<script>
+  $("#nanogallery1").nanogallery2({
+    // ### gallery settings ###
+    thumbnailHeight:  150,
+    thumbnailWidth:   150,
+    itemsBaseURL:     '/assets/images/',
+
+    // ### gallery content ###
+    items: [
+        { src: 'Joy.png', srct: 'Joy.png' },
+        { src: 'Bob.png', srct: 'Bob.png' },
+        { src: 'Janine.png', srct: 'Janine.png' },
+
+    ]
+    });
+</script>
+
+<h2 id="approach">Approach</h2>
+
+<h3 id="product-market-fit">Product Market Fit</h3>
+<h4 id="hypothesis">Hypothesis</h4>
+<p>SmartHistory is an essential tool for individuals in academia, research, and knowledge-intensive professions by significantly improving their efficiency and effectiveness in managing and utilizing online research materials. By automatically tagging, categorizing, and grouping website visits based on site type and content, SmartHistory will reduce the time users spend organizing their research, thereby increasing their productivity. This will lead to a high adoption rate among students, researchers, and professionals who require a sophisticated level of digital organization for their work or studies. The ease of accessing and retrieving organized information will not only enhance individual productivity but also foster collaborative projects and learning environments.</p>
+
+<p><strong>Key Assumptions:</strong></p>
+<ol>
+  <li><strong>There is a significant need among students, researchers, and professionals for a more efficient way to manage and retrieve online research materials.</strong></li>
+  <li><strong>Current solutions do not adequately address the complexity and volume of information that users interact with daily.</strong></li>
+  <li><strong>Users prioritize time-saving tools that seamlessly integrate into their existing workflows without requiring significant behavior changes.</strong></li>
+  <li><strong>Privacy and data security are critical concerns for users when adopting new tools for managing online activities.</strong></li>
+</ol>
+
+<p><strong>Validation :</strong></p>
+<ol>
+  <li><strong>Surveys and Interviews:</strong> Feedback was gathered from target user segments to understand their pain points with current tools and the potential interest in SmartHistory’s offerings.</li>
+  <li><strong>Prototype Testing:</strong> MVP clickable prototypes were devloped and provide to a select group of users for testing.</li>
+</ol>
+
+<h3 id="go-to-market-strategy">Go-To-Market Strategy</h3>
+
+<h4 id="1-target-segments-messaging">1. <strong>Target Segments Messaging</strong></h4>
+<ul>
+  <li><strong>Academic Researchers and Students:</strong> Highlight the ability to streamline the research process through automatic categorization and project-based grouping.</li>
+  <li><strong>Education Providers:</strong> Emphasize the ability to enhance both teaching and learning experiences through efficient research and study processes.</li>
+  <li><strong>Tech Enthusiasts and Early Adopters:</strong> Emphasize innovative features like AI-driven organization and organic learning.</li>
+</ul>
+
+<h4 id="2-value-proposition-communication">2. <strong>Value Proposition Communication</strong></h4>
+<ul>
+  <li><strong>Educational Content:</strong> Develop blog posts, videos, and webinars to introduce SmartHistory and provide valuable insights on improving online research methods and productivity.</li>
+  <li><strong>Social Proof:</strong> Use testimonials and case studies from beta testers to build credibility and trust.</li>
+</ul>
+
+<h4 id="3-partnerships-and-collaborations">3. <strong>Partnerships and Collaborations</strong></h4>
+<ul>
+  <li><strong>Academic Institutions:</strong> Partner with universities and colleges to offer SmartHistory as a tool for their libraries or as part of their digital literacy curriculum.</li>
+  <li><strong>Technology Platforms:</strong> Collaborate with browser developers for seamless integration, enhancing user experience.</li>
+  <li><strong>Influencers:</strong> Work with productivity influencers and tech reviewers on platforms like YouTube and LinkedIn to reach a wider audience.</li>
+</ul>
+
+<h4 id="4-digital-marketing-and-seo">4. <strong>Digital Marketing and SEO</strong></h4>
+<ul>
+  <li><strong>Search Engine Optimization (SEO):</strong> Optimize content with relevant keywords to ensure high visibility for searches related to productivity tools, online research, and browser organization solutions.</li>
+  <li><strong>Social Media Marketing:</strong> Utilize platforms such LinkedIn, Github and Research forums to share content and engage with users.</li>
+  <li><strong>Paid Advertising:</strong> Implement targeted ad campaigns on Google based on target users and relevant searches, such as StackOverflow and common learning sites like COursera.</li>
+</ul>
+
+<h4 id="5-pricing-model">5. <strong>Pricing Model</strong></h4>
+<ul>
+  <li><strong>Freemium:</strong> Offers core functionalities for free, encouraging adoption and user growth.</li>
+  <li><strong>Pro Model:</strong> Enhanced analytics, unlimited project groups, and advanced privacy controls, to convert engaged users into paying customers.</li>
+</ul>
+
+<h3 id="roadmap">Roadmap</h3>
+
+<h2 id="results">Results</h2>
+
+<h2 id="next-steps">Next Steps</h2>]]></content><author><name>Leigh Lawhon</name></author><category term="work" /><category term="AI" /><category term="Product Management" /><summary type="html"><![CDATA[Background As an Product Manager, I regularly search the internet to support my projects, researching many topics across many types of sties. An example project is the research I did for my 2024 SBIR grant, which included searches on ADHD, Autism, Machine Learning, Generative AI, and SBIR requirements. I found that it was hard to track this work, even with well organized bookmarks using Google Chrome.]]></summary></entry><entry><title type="html">Watercolour Portraits</title><link href="http://localhost:4000/artwork/2023/09/01/watercolor-portraits.html" rel="alternate" type="text/html" title="Watercolour Portraits" /><published>2023-09-01T17:13:27-04:00</published><updated>2023-09-01T17:13:27-04:00</updated><id>http://localhost:4000/artwork/2023/09/01/watercolor-portraits</id><content type="html" xml:base="http://localhost:4000/artwork/2023/09/01/watercolor-portraits.html"><![CDATA[<p>I have recently switched mediums and now work in watercolour. I build up layers of color and texture to create three-dimensional work that captures the spirit of my models. My work can be found at <a href="https://www.etsy.com/shop/LeighLawhon">my Etsy store</a></p>
+
+<div id="nanogallery2"></div>
+<script>
+  $("#nanogallery2").nanogallery2({
+  // ### gallery settings ###
+  thumbnailHeight:  150,
+  thumbnailWidth:   150,
+  itemsBaseURL:     '/assets/images/',
+
+  // ### gallery content ###
+  items: [
+      { src: 'model1.jpg', srct: 'model1.jpg' },
+      { src: 'shaila1.jpg', srct: 'shaila1.jpg' },
+      { src: 'naomi1.png', srct: 'naomi1.png' },
+
+  ]
+});
+</script>]]></content><author><name>Leigh Lawhon</name></author><category term="artwork" /><category term="Portraits" /><summary type="html"><![CDATA[This article explains the BARN method, a framework for showcasing your projects.]]></summary></entry><entry><title type="html">The B.A.R.N. Framework</title><link href="http://localhost:4000/article/2023/07/14/BARN.html" rel="alternate" type="text/html" title="The B.A.R.N. Framework" /><published>2023-07-14T17:13:27-04:00</published><updated>2023-07-14T17:13:27-04:00</updated><id>http://localhost:4000/article/2023/07/14/BARN</id><content type="html" xml:base="http://localhost:4000/article/2023/07/14/BARN.html"><![CDATA[<h1 id="introduction">Introduction</h1>
+<p>Writing about your projects is crucial to giving context for the work. Writing an impactful article requires a structured approach that captures readers’ attention and delivers valuable insights. I use my BARN framework to achieve this goal: Background, Approach, Results, and Next Steps. In this article, we will delve into each element of the BARN framework and explore how it can enhance your writing skills.</p>
+
+<h2 id="background">Background:</h2>
+<p>The Background section of an article serves as the foundation, providing context and establishing the relevance of the topic. It sets the stage for readers to understand the problem or subject matter being addressed. To effectively craft this section, consider the following:</p>
+
+<p><strong>1. Hook the readers:</strong> Begin with an engaging hook or anecdote that grabs readers’ attention and piques their curiosity.</p>
+
+<p><strong>2. Problem statement:</strong> Clearly define the problem or questions that your project aims to address. Explain why it is significant and how it relates to the readers’ interests or concerns.</p>
+
+<h2 id="approach">Approach:</h2>
+<p>The Approach section outlines the methodology or approach used to investigate the problem or answer the problem statement. It is essential to provide readers with a clear understanding of how the research or analysis was conducted. Consider the following when constructing this section:</p>
+
+<p><strong>1. Methodology:</strong> Describe the research design, data collection methods, and any tools or techniques employed. Ensure your explanation is concise yet comprehensive enough to allow readers to undestand your process.</p>
+
+<p><strong>2. Data analysis:</strong> If applicable, detail the analysis techniques used to interpret the gathered data. This could include statistical methods, qualitative analysis, or any other relevant procedures.</p>
+
+<p><strong>3. Assumptions and limitations:</strong> Acknowledge any assumptions made during the process and highlight the potential limitations. Call out any challenges you faced. This demonstrates transparency and helps readers evaluate the validity of the results.</p>
+
+<h2 id="results">Results:</h2>
+<p>The Results section presents the key findings and outcomes of your research or analysis. It is crucial to present this information in a clear and organized manner to facilitate readers’ understanding. Consider the following tips:</p>
+
+<p><strong>1. Summarize findings:</strong> Provide a concise summary of the main findings, focusing on the most important and impactful results.</p>
+
+<p><strong>2. Visual aids:</strong> Utilize charts, graphs, tables, or screenshots to present complex data in a visually appealing and accessible format. This enhances reader comprehension and engagement.</p>
+
+<p><strong>3. Interpretation:</strong> Offer a thoughtful interpretation of the results, highlighting their significance in relation to the problem statement and the existing body of knowledge. Consider addressing unexpected or conflicting findings and proposing potential explanations.</p>
+
+<h2 id="next-steps">Next Steps:</h2>
+<p>The Next Steps section outlines potential future directions, implications, or recommendations based on the findings of your article. This section demonstrates your forward-thinking approach and encourages further exploration of the topic. Consider the following aspects:</p>
+
+<p><strong>1. Implications:</strong> Discuss the broader implications of your findings and how they contribute to the field of study or the problem at hand. Consider societal, economic, or practical implications.</p>
+
+<p><strong>2. Recommendations:</strong> Offer recommendations for further research or actions that can be taken based on your results. This could include areas that require additional investigation, potential applications, or suggested policy changes.</p>
+
+<p><strong>3. Conclusion:</strong> Summarize the key points discussed in your article, emphasizing the value and impact of your project.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Mastering the art of writing about your project requires a systematic and well-structured approach. The BARN framework, encompassing Background, Approach, Results, and Next Steps, provides a roadmap for creating engaging and informative articles. By leveraging this framework, you can effectively convey the context, methodology, findings, and future implications of your work, capturing readers’ attention and leaving a lasting impact in your field of expertise. So, pick up your pen or open your word processor, and let the BARN framework guide you on your journey to becoming a skilled and influential article writer.</p>]]></content><author><name>Leigh Lawhon</name></author><category term="article" /><category term="Writing" /><summary type="html"><![CDATA[This article explains the BARN method, a framework for showcasing your projects.]]></summary></entry><entry><title type="html">Ads and Posters</title><link href="http://localhost:4000/work/2023/07/01/ads.html" rel="alternate" type="text/html" title="Ads and Posters" /><published>2023-07-01T17:13:27-04:00</published><updated>2023-07-01T17:13:27-04:00</updated><id>http://localhost:4000/work/2023/07/01/ads</id><content type="html" xml:base="http://localhost:4000/work/2023/07/01/ads.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>As a graphic designer I created many ads and posters for companies such as Scitor (now SAIC), the Carnegie Endowment and the Smithsonian Institute. Below are some examples of my work.</p>
+
+<p><img src="/assets/images/scitor1.jpeg" alt="Scitor1" class="gallary" />
+<img src="/assets//images/scitor2.jpeg" alt="Scitor2" class="gallary" />
+<img src="/assets/images/scitor3.png" alt="Scitor3" class="gallary" />
+<img src="/assets/images/scitor4.jpeg" alt="Scitor4" class="gallary" />
+<img src="/assets//images/smitsonian1.gif" alt="Smithsonian" class="gallary" />
+<img src="/assets//images/carnegie1.gif" alt="Carnegie" class="gallary" /></p>]]></content><author><name>Leigh Lawhon</name></author><category term="work" /><category term="Design and Branding" /><summary type="html"><![CDATA[This article showcases the game Collaborate and how I build it.]]></summary></entry><entry><title type="html">Scitor Videos</title><link href="http://localhost:4000/work/2023/07/01/gyro.html" rel="alternate" type="text/html" title="Scitor Videos" /><published>2023-07-01T17:13:27-04:00</published><updated>2023-07-01T17:13:27-04:00</updated><id>http://localhost:4000/work/2023/07/01/gyro</id><content type="html" xml:base="http://localhost:4000/work/2023/07/01/gyro.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>As an Information Specialist at Scitor Corporation, I created in-house videos and 3D animations.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8-6ddXqW9W4?si=a4JN1Dp34OP5aPkK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yiSOaidlxSQ?si=8Tw5fhrKxzK9R0MR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>]]></content><author><name>Leigh Lawhon</name></author><category term="work" /><category term="3D and Motion Graphics" /><summary type="html"><![CDATA[This article showcases the game Collaborate and how I build it.]]></summary></entry><entry><title type="html">Infographics</title><link href="http://localhost:4000/work/2023/07/01/infographics.html" rel="alternate" type="text/html" title="Infographics" /><published>2023-07-01T17:13:27-04:00</published><updated>2023-07-01T17:13:27-04:00</updated><id>http://localhost:4000/work/2023/07/01/infographics</id><content type="html" xml:base="http://localhost:4000/work/2023/07/01/infographics.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>As a graphic designer I created many infographics for companies such as Social Progress Index, the American Society of Interior Designers and the Corporate Executive Board. For each infographic, I focus on the clarity of the information, incorporating shapes, color and contrast. Below are some examples of my work.</p>
+
+<div id="nanogallery2"></div>
+<script>
+  $("#nanogallery2").nanogallery2({
+  // ### gallery settings ###
+  thumbnailHeight:  150,
+  thumbnailWidth:   150,
+  itemsBaseURL:     '/assets/images/',
+
+  // ### gallery content ###
+  items: [
+      { src: 'socialprogress.png', srct: 'socialprogress.png' },
+      { src: 'socioeconomic.png', srct: 'socioeconomic.png' },
+      { src: 'lifetime.png', srct: 'lifetime.png' },
+      { src: 'map.jpeg', srct: 'map.jpeg' },
+      { src: 'ceb.png', srct: 'ceb.png' },
+      { src: 'ceb2.png', srct: 'ceb2.png' },
+      { src: 'ceb3.png', srct: 'ceb3.png' },
+  ]
+});
+</script>]]></content><author><name>Leigh Lawhon</name></author><category term="work" /><category term="Data Visualization" /><summary type="html"><![CDATA[This article showcases the game Collaborate and how I build it.]]></summary></entry><entry><title type="html">Logos</title><link href="http://localhost:4000/work/2023/07/01/logos.html" rel="alternate" type="text/html" title="Logos" /><published>2023-07-01T17:13:27-04:00</published><updated>2023-07-01T17:13:27-04:00</updated><id>http://localhost:4000/work/2023/07/01/logos</id><content type="html" xml:base="http://localhost:4000/work/2023/07/01/logos.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>As a graphic designer I created many logos for companies such as Blackboard, the Scitor and the Smithsonian Institute. For each logo I design, I try to find unique shapes, incorporating negative space, and look for symbolism that represents my clients. Below are some examples of my work.</p>
+
+<div id="nanogallery2"></div>
+<script>
+  $("#nanogallery2").nanogallery2({
+  // ### gallery settings ###
+  thumbnailHeight:  150,
+  thumbnailWidth:   150,
+  itemsBaseURL:     '/assets/images/',
+
+  // ### gallery content ###
+  items: [
+      { src: 'rockcreek.png', srct: 'rockcreek.png' },
+      { src: 'argo.jpeg', srct: 'argo.jpeg' },
+      { src: 'blackboard.jpeg', srct: 'blackboard.jpeg' },
+      { src: 'gardenfest.jpeg', srct: 'gardenfest.jpeg' },
+      { src: 'kenetik.png', srct: 'kenetik.png' },
+      { src: 'standup.png', srct: 'standup.png' },
+      { src: 'KO.png', srct: 'KO.png' },
+      { src: 'rg.png', srct: 'rg.png' },
+      { src: 'surefire.png', srct: 'surefire.png' },
+      { src: 'melt.gif', srct: 'melt.gif' },
+
+  ]
+});
+</script>]]></content><author><name>Leigh Lawhon</name></author><category term="work" /><category term="Design and Branding" /><summary type="html"><![CDATA[This article showcases the game Collaborate and how I build it.]]></summary></entry><entry><title type="html">Web Design</title><link href="http://localhost:4000/work/2023/07/01/webdesign.html" rel="alternate" type="text/html" title="Web Design" /><published>2023-07-01T17:13:27-04:00</published><updated>2023-07-01T17:13:27-04:00</updated><id>http://localhost:4000/work/2023/07/01/webdesign</id><content type="html" xml:base="http://localhost:4000/work/2023/07/01/webdesign.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>As a UX Engineer I designed, conducted UX research and developed many websites. Most of these sites were developed using WordPress and Jekyll. Below are a few of my favorites:</p>
+
+<div id="nanogallery2"></div>
+<script>
+  $("#nanogallery2").nanogallery2({
+  // ### gallery settings ###
+  thumbnailHeight:  150,
+  thumbnailWidth:   150,
+  itemsBaseURL:     '/assets/images/',
+
+  // ### gallery content ###
+  items: [
+      { src: 'aclu.jpeg', srct: 'aclu.jpeg' },
+      { src: 'kinimetrick.jpeg', srct: 'kinimetrick.jpeg' },
+      { src: 'lng.png', srct: 'lng.png' },
+      { src: 'collabup.png', srct: 'collabup.png' },
+      { src: 'virge.jpeg', srct: 'virge.jpeg' },
+
+  ]
+});
+</script>]]></content><author><name>Leigh Lawhon</name></author><category term="work" /><category term="Design and Branding" /><summary type="html"><![CDATA[This article showcases the game Collaborate and how I build it.]]></summary></entry><entry><title type="html">Your Life Ad</title><link href="http://localhost:4000/work/2023/07/01/yourlife.html" rel="alternate" type="text/html" title="Your Life Ad" /><published>2023-07-01T17:13:27-04:00</published><updated>2023-07-01T17:13:27-04:00</updated><id>http://localhost:4000/work/2023/07/01/yourlife</id><content type="html" xml:base="http://localhost:4000/work/2023/07/01/yourlife.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>I produced this video for a competition, overseeing all aspects from filming to design and development, including the incorporation of special effects and 3D elements. My objective was to illustrate the correlation between magazines and our sense of identity.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OfBKDwCyi7w?si=U1O5vPJ_5yvMAufz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>]]></content><author><name>Leigh Lawhon</name></author><category term="work" /><category term="3D and Motion Graphics" /><summary type="html"><![CDATA[This article showcases the game Collaborate and how I build it.]]></summary></entry></feed>

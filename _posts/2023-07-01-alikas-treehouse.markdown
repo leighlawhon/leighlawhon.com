@@ -4,7 +4,7 @@ title:  "Alika's Treehouse"
 date:   2023-07-01 16:13:27 -0500
 tags: [Tutorials, EdTech]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: work
 highlight_home: true
 tagline: "An interactive comicbook"

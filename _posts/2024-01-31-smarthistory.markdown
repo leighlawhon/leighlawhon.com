@@ -7,7 +7,7 @@ highlight_home: true
 categories: work
 tags: ["AI", "Product Management"]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 header:
  teaser: https://images.unsplash.com/photo-1477013743164-ffc3a5e556da
  overlay_image: https://images.unsplash.com/photo-1477013743164-ffc3a5e556da

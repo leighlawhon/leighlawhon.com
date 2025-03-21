@@ -4,7 +4,7 @@ title:  "How to win at a hackathon"
 date:   2023-06-21 19:15:27 -0500
 tags: [Career]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: article
 tagline: "Investing in the 'Dots'"
 header:

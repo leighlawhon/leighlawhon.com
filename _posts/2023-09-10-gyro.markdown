@@ -4,14 +4,14 @@ title:  "Scitor Videos"
 date:   2023-07-01 16:13:27 -0500
 tags: ["3D and Motion Graphics"]
 author_profile: true
-author: Leigh Stewardson
+author: Leigh Lawhon
 categories: work
 highlight_home: true
 tagline: "Various Video and 3D Projects"
 header:
   overlay_image: /assets/images/gyro.png
   teaser:  /assets/images/gyro.png
-  caption: "Photo credit: **Leigh Stewardson**"
+  caption: "Photo credit: **Leigh Lawhon**"
 description: "This article showcases the game Collaborate and how I build it."
 ---
 
