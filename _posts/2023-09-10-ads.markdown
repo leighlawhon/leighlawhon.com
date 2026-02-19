@@ -18,9 +18,23 @@ description: This article showcases the game Collaborate and how I build it.
 ## Introduction
 As a graphic designer I created many ads and posters for companies such as Scitor (now SAIC), the Carnegie Endowment and the Smithsonian Institute. Below are some examples of my work.
 
-![Scitor1](/assets/images/scitor1.jpeg){:.gallary}
-![Scitor2](/assets//images/scitor2.jpeg){:.gallary}
-![Scitor3](/assets/images/scitor3.png){:.gallary}
-![Scitor4](/assets/images/scitor4.jpeg){:.gallary}
-![Smithsonian](/assets//images/smitsonian1.gif){:.gallary}
-![Carnegie](/assets//images/carnegie1.gif){:.gallary}
+<div id="nanogallery2"></div>
+<script>
+  $("#nanogallery2").nanogallery2({
+  // ### gallery settings ###
+  thumbnailHeight:  150,
+  thumbnailWidth:   150,
+  itemsBaseURL:     '/assets/images/',
+
+  // ### gallery content ###
+  items: [
+      { src: 'scitor1.jpeg', srct: 'scitor1.jpeg' },
+      { src: 'scitor2.jpeg', srct: 'scitor2.jpeg' },   
+      { src: 'scitor3.jpeg', srct: 'scitor3.jpeg' },   
+      { src: 'scitor4.jpeg', srct: 'scitor4.jpeg' },   
+      { src: 'smitsonian1.gif', srct: 'smitsonian1.gif' },   
+      { src: 'carnegie1.gif', srct: 'carnegie1.gif' },   
+      
+  ]
+});
+</script>
