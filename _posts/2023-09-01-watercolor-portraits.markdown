@@ -31,7 +31,7 @@ I have recently switched mediums and now work in watercolour. I build up layers 
   items: [
       { src: 'model1.jpg', srct: 'model1.jpg' },
       { src: 'naomi1.png', srct: 'naomi1.png' },
-      { src: 'taylor1.png', srct: 'taylor1.png' },
+      { src: 'taylor1.jpg', srct: 'taylor1.jpg' },
       { src: 'abstract.jpeg', srct: 'abstract.jpeg' },
       { src: 'charcoal.jpeg', srct: 'charcoal.jpeg' },
       { src: 'cherries_tulips.jpeg', srct: 'cherries_tulips.jpeg' },
