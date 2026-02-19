@@ -32,7 +32,20 @@ I have recently switched mediums and now work in watercolour. I build up layers 
       { src: 'model1.jpg', srct: 'model1.jpg' },
       { src: 'shaila1.jpg', srct: 'shaila1.jpg' },
       { src: 'naomi1.png', srct: 'naomi1.png' },
-
+      { src: 'taylor1.png', srct: 'taylor1.png' },
+      { src: 'abstract.jpeg', srct: 'abstract.jpeg' },
+      { src: 'charcoal.jpeg', srct: 'charcoal.jpeg' },
+      { src: 'cherries_tulips.jpeg', srct: 'cherries_tulips.jpeg' },
+      { src: 'clarice.jpeg', srct: 'clarice.jpeg' },
+      { src: 'flour_poppy.jpeg', srct: 'flour_poppy.jpeg' },
+      { src: 'helicopter.jpeg', srct: 'helicopter.jpeg' },
+      { src: 'hospital.jpeg', srct: 'hospital.jpeg' },
+      { src: 'pearl.jpeg', srct: 'pearl.jpeg' },
+      { src: 'rita.jpeg', srct: 'rita.jpeg' },
+      { src: 'rita2.jpeg', srct: 'rita2.jpeg' },
+      { src: 'shaila1.jpegg', srct: 'shaila1.jpeg' },
+      { src: 'stefan.png', srct: 'stefan.png' },
+      
   ]
 });
 </script>
