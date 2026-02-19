@@ -30,7 +30,7 @@ As a graphic designer I created many ads and posters for companies such as Scito
   items: [
       { src: 'scitor1.jpeg', srct: 'scitor1.jpeg' },
       { src: 'scitor2.jpeg', srct: 'scitor2.jpeg' },   
-      { src: 'scitor3.jpeg', srct: 'scitor3.jpeg' },   
+      { src: 'scitor3.png', srct: 'scitor3.png' },   
       { src: 'scitor4.jpeg', srct: 'scitor4.jpeg' },   
       { src: 'smitsonian1.gif', srct: 'smitsonian1.gif' },   
       { src: 'carnegie1.gif', srct: 'carnegie1.gif' },   
