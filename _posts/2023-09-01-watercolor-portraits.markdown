@@ -30,7 +30,6 @@ I have recently switched mediums and now work in watercolour. I build up layers 
   // ### gallery content ###
   items: [
       { src: 'model1.jpg', srct: 'model1.jpg' },
-      { src: 'shaila1.jpg', srct: 'shaila1.jpg' },
       { src: 'naomi1.png', srct: 'naomi1.png' },
       { src: 'taylor1.png', srct: 'taylor1.png' },
       { src: 'abstract.jpeg', srct: 'abstract.jpeg' },
@@ -43,7 +42,6 @@ I have recently switched mediums and now work in watercolour. I build up layers 
       { src: 'pearl.jpeg', srct: 'pearl.jpeg' },
       { src: 'rita.jpeg', srct: 'rita.jpeg' },
       { src: 'rita2.jpeg', srct: 'rita2.jpeg' },
-      { src: 'shaila1.jpegg', srct: 'shaila1.jpeg' },
       { src: 'stefan.png', srct: 'stefan.png' },
       
   ]
