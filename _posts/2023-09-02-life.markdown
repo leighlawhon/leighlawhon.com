@@ -44,10 +44,10 @@ Ideally, I would have preferred to continue monitoring metrics on this interface
       { src: 'life1.png', srct: 'life1.png' },
       { src: 'life2.png', srct: 'life2.png' },
       { src: 'life3.png', srct: 'life3.png' },
-      { src: 'life3.png', srct: 'life4.png'},
-      { src: 'life3.png', srct: 'life5.png'},
-      { src: 'life3.png', srct: 'life6.png'},
-      { src: 'life3.png', srct: 'life7.png' }
+      { src: 'life4.png', srct: 'life4.png'},
+      { src: 'life5.png', srct: 'life5.png'},
+      { src: 'life6.png', srct: 'life6.png'},
+      { src: 'life7.png', srct: 'life7.png' }
   ]
 });
 </script>
